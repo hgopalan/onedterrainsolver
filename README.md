@@ -1,1 +1,1 @@
-# onedterrainsolver
+This package provides a way to generate a vertical profile for wake models using HRRR data. The solver does an inverse sweep by computing the geostrophic wind required to obtain the 80 m wind speed from HRRR data. Once the geostrophic wind is obtained, the terrain height and land use data from HRRR or other sources at each lat,lon location of wind turbines can be used to generate a real-time initial vertical profile. The wake models can be run on top of the profile to compute AEP. 
